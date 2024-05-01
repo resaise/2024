@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>ReSAISE 2023</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      margin: 20px 20px 20px 20px;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    header {
+      background-color: #F8B054;
+      color: #fff;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    header h1 {
+      font-size: 24px;
+      margin: 0;
+    }
+
+    header ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    header ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+
+    header ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    header ul li a:hover {
+      text-decoration: underline;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      font-size: 36px;
+      color: #385688;
+    }
+
+    p {
+      margin-bottom: 10px;
+      font-size: 20px;
+    }
+
+    ul {
+      font-size: 20px;
+    }
+
+  figure-container {
+      text-align: center;
+      margin-bottom: 20px;
+      margin-left: 200px;
+      margin-right: 20px;
+      position: relative;
+    }
+
+
+    .text-container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+     #image-section {
+      position: relative;
+      width: auto;
+      height: 50vh;
+      background-image: url('image.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      max-width: 100%;
+      max-height: calc(100vh - 100px); /* Adjust the height based on your header size */
+      overflow: hidden;
+      text-align: center;
+
+    }
+    
+    #image-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      text-align: center;
+      color: #fff;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    
+    #image-overlay h1 {
+      margin-top: 0;
+      font-size: 50px;
+      width: 100%;
+      line-height: 1.2;
+      margin-bottom: 10px;
+      color: #fff;
+      
+    }
+
+    #image-overlay h2 {
+      margin-top: 0;
+      font-size: 30px;
+      width: 100%;
+      line-height: 1.2;
+      margin-bottom: 10px;
+      color: #fff;
+    }
+
+    #image-overlay a {
+      margin-top: 0;
+      font-size: 30px;
+      width: 100%;
+      line-height: 1.2;
+      margin-bottom: 10px;
+      color: #fff;
+    }
+  
+
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="papers.html">Call for Papers</a></li>
+        <li><a href="issue.html">Special Issue</a></li>
+        <li><a href="participation.html">Call for Participation</a></li>
+        <li><a href="keynote.html">Keynote Speakers</a></li>
+        <li><a href="program.html">Program</a></li>
+        <li><a href="committee.html">Committee</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+    <div class="figure-container">
+      <section id="image-section">
+        <div id="image-overlay">
+          <h1>ReSAISE</h1>
+          <h2>The 2nd IEEE International Workshop on Reliable and Secure AI for Software Engineering</h2>
+           <h2>Co-located with <a href="https://issre.github.io/2024/" target=”_blank”>ISSRE 2024</a>, Tsukuba, Japan, October 28th - 31st, 2024</h2>
+        </div>
+      </section>
+    </div>  
+
+    <div class="text-container">
+    <h2>About ReSAISE</h2>
+    <p>As Artificial Intelligence (AI) continues to drive innovation, Large Language Models (LLMs) are transforming the landscape of Software Engineering (SE). These models are not only enhancing capabilities in automated code generation but are also pivotal in addressing complex software development challenges such as bug detection and fixing, vulnerability detection and remediation, automated testing, and many other challenging tasks. While these solutions have shown impressive results in the SE field, their application poses reliability and security concerns.</p>
+    
+    <p>Addressing the reliability and security aspects of AI-based solutions for SE involves careful consideration of data quality, model performance, monitoring, privacy measures, security practices, and ongoing maintenance to ensure reliable and secure AI systems.</p>
+
+    <p>The workshop aims to bring together researchers and industrial practitioners from both AI and SE communities to collaborate, share experiences, provide directions for future research, and encourage the use of reliable and secure AI solutions for addressing software engineering-specific challenges. We encourage submissions targeting interdisciplinary research, in particular those listed in the topics of interest. </p>
+
+    <p>We particularly invite submissions that focus on innovative uses of LLMs in software development, studies on their reliability and security, and explorations of ethical considerations in their deployment.</p>
+
+    <h2>Topics of interest</h2>
+    <p>This call for papers invites all researchers and practitioners to explore the reliability and security aspects of AI in the Software Engineering (SE) field. The workshop will cover a wide range of topics, including but not limited to:</p>
+
+    <p><ul>
+      <b>AI Security and Privacy:</b>
+      <li>Adversarial Attacks and Defenses</li>
+      <li>Privacy-Preserving AI</li>
+      <li>Security Threats and Countermeasures</li>
+      <li>Secure Model Training</li>
+      <li>Authentication and Access Control</li>
+      <li>Compliance and Regulatory Requirements</li>
+      <li>AI-Generated Offensive Security Code</li>
+
+
+      <b>AI System Integrity and Quality:</b>
+      <li>Data Quality and Bias</li>
+      <li>Evaluation Approaches and Benchmarks</li>
+      <li>Robustness and Resilience</li>
+      <li>Incident Response and Recovery</li>
+      <li>System Monitoring and Maintenance</li>
+
+      <b>AI Implementation and Operation:</b>
+      <li>Secure Deployment and Integration</li>
+      <li>AI-enabled Threat Detection and Defect Detection</li>
+      <li>Secure Code Generation and Program Synthesis</li>
+      <li>Automated Testing</li>
+      <li>Code Analysis and Refinement</li>
+
+      <b>Innovations in AI Application:</b>
+      <li>AI Coding Assistants</li>
+      <li>Explainable AI in Software Engineering</li>
+      <li>Program Repair</li>
+      <li>Green AI for Software Engineering</li>
+
+      <b>Experiences and Case Studies:</b>
+      <li>Open issues</li>
+      <li>Practical experiences</li>
+      <li>Real-world case studies</li>
+
+    </ul></p>
+  </div>
+        
+
+</body>
+</html>
